@@ -11,6 +11,10 @@ a {
     color: white;
 }
 
+ul {
+    list-style: none;
+}
+
 .landing {
     background-image: url("../img/banner-bg.png");
     background-size: cover;
@@ -31,4 +35,41 @@ a {
     color: #EEB2FF;
     padding: 10px 0px;
     font-size: 14px;
+}
+
+.showcase {
+    padding: 20px 99.6px;
+}
+
+.header {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.header ul {
+    display: inline-flex;
+}
+
+.header li {
+    padding: 24px;
+}
+
+.header a {
+    color: #292930;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.header .btn {
+    background-color: #3577F0;
+    font-size: 15px;
+    padding: 12px 30px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
 }
